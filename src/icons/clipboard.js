@@ -1,4 +1,4 @@
-import React from 'react';
+import 'inferno';
 import PropTypes from 'prop-types';
 
 const Clipboard = props => {

@@ -36,7 +36,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
     });
 
     const element = `
-      import React from 'react';
+      import 'inferno';
       import PropTypes from 'prop-types';
 
       const ${uppercamelcase(id)} = (props) => {
